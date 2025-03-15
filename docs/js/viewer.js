@@ -290,14 +290,25 @@ function openMarkdownInWindow(url, title) {
     
     // Create a new window
     const width = 800;
-    const height = 600;
+    const height = Math.max(600, window.screen.height - 100); // Use most of the screen height
     const left = window.screenX + 300; // Position to the right of sidebar
     const top = window.screenY;
     
-    const newWindow = window.open('', title, `width=${width},height=${height},left=${left},top=${top}`);
+    // Generate a unique window name based on URL to prevent conflicts when
+    // opening the same markdown file multiple times. This ensures we can
+    // properly detect and reuse existing windows without causing blank content.
+    const windowName = `markdown_${url.replace(/[^a-zA-Z0-9]/g, '_')}`;
+    const newWindow = window.open('', windowName, `width=${width},height=${height},left=${left},top=${top}`);
     
     if (!newWindow) {
         alert('Popup blocked! Please allow popups for this site.');
+        return;
+    }
+    
+    // If the window already has our custom content, just focus it and return
+    if (newWindow.document.querySelector('#content') && 
+        newWindow.document.title === title) {
+        newWindow.focus();
         return;
     }
     
