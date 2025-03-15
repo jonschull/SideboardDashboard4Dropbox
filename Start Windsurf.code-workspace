@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.colorTheme": "Default Light+",
+    "editor.wordWrap": "on",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true,
+      ".vscode": true,
+      "http_server_nocache.py": true,
+      "issues.md": true,
+      "LICENSE": true
+    }
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "extensions": {
+    "recommendations": []
+  }
+}
