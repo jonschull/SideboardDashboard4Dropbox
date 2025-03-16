@@ -11,7 +11,7 @@ an AI assistant or developer can use this document to restore them.
 **Version:** 1.0.0  
 **Last Modified:** March 15, 2025  
 
-**GitHub Repository:** [SD4D GitHub Repository](https://github.com/username/SD4D)  
+**GitHub Repository:** [SD4D GitHub Repository](https://github.com/jonschull/SideboardDashboard4Dropbox)  
 **Directory:** `/docs`  
 **Last Verified Commit:** `________` (To be filled after GitHub push)
 
