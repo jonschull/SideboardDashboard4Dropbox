@@ -13,7 +13,7 @@ an AI assistant or developer can use this document to restore them.
 
 **GitHub Repository:** [SD4D GitHub Repository](https://github.com/jonschull/SideboardDashboard4Dropbox)  
 **Directory:** `/docs`  
-**Last Verified Commit:** `________` (To be filled after GitHub push)
+**Last Verified Commit:** `d0463312535bd1febe17b83c1287aa9312675b02`
 
 > **IMPORTANT NOTE ON VERSIONING AND RECOVERY:**  
 > This document serves two complementary purposes:
