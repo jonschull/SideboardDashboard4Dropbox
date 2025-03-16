@@ -1,33 +1,37 @@
 # SD4D System Files
 
-**Last Updated:** March 15, 2025 19:50 EDT
+**Last Updated:** March 15, 2025 20:04 EDT
 
 This document contains the definitive versions of critical system files for the SD4D (SideboardDashboardForDropbox) project.
 These files should not be modified directly by users. If system files become corrupted,
 an AI assistant or developer can use this document to restore them.
 
-## GitHub Reference Information
+## Version and Repository Information
 
-**Repository:** [SD4D GitHub Repository](https://github.com/username/SD4D)  
+**Version:** 1.0.0  
+**Last Modified:** March 15, 2025  
+
+**GitHub Repository:** [SD4D GitHub Repository](https://github.com/username/SD4D)  
 **Directory:** `/docs`  
-**Last Verified Commit:** `________`  
+**Last Verified Commit:** `________` (To be filled after GitHub push)
 
-> **IMPORTANT NOTE FOR MAINTAINERS:**  
-> The proper updating procedure is:
-> 1. Make necessary changes to system files and update this document
-> 2. Commit these changes to the repository
-> 3. After the commit is complete, edit this document again to fill in the "Last Verified Commit" 
->    field above with the new commit hash from the previous step
-> 4. Commit this update with a message like "Update commit reference in System_files.md"
+> **IMPORTANT NOTE ON VERSIONING AND RECOVERY:**  
+> This document serves two complementary purposes:
 >
-> This two-step commit process ensures that users and AI assistants can always find a known-good 
-> version of these files in the repository history, even if the current working files become corrupted.
+> 1. **Self-contained Reference**: All critical files are included verbatim in this document,
+>    making it possible to recover system files even without internet access.
 >
-> **Note for External Developers:**
-> If you've forked or cloned this repository for your own development:
-> - Only the original repository owner can update the main repository
-> - You can maintain your own version of this document in your fork
-> - Consider keeping a reference to the original repository for upstream changes
+> 2. **GitHub Reference**: The GitHub repository provides an authoritative external reference
+>    that can be accessed from anywhere if local files become corrupted.
+>
+> **For Maintainers:**
+> - When updating system files, update both the version number and this document
+> - After pushing to GitHub, update the "Last Verified Commit" field with the new commit hash
+> - Always ensure this document remains in sync with the actual system files
+>
+> **For Users:**
+> - If you have internet access, the GitHub repository is the most reliable reference
+> - If working offline, this document contains everything needed to restore critical files
 
 ## Critical Files Overview
 
